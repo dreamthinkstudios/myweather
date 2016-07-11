@@ -34,7 +34,7 @@ angular.module("MyWeatherApp", [])
 	navigator.geolocation.getCurrentPosition(success, error, options);
 
 	function getWeather() {
-		var url = "api.openweathermap.org/data/2.5/weather";
+		var url = "https://api.openweathermap.org/data/2.5/weather";
 		var	APIKEY = "3cf58566cfe72e04e12f3a19d54e08dd";
 
 		$http({
